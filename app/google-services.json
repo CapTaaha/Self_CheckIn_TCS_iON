@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "112936670092",
+    "project_id": "hotel-self-check-in-922da",
+    "storage_bucket": "hotel-self-check-in-922da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112936670092:android:c39b60d29d9a36364dfca9",
+        "android_client_info": {
+          "package_name": "com.example.selfcheck_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112936670092-krdegsvf3ahnbp058i7uckfmiskn11nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selfcheck_in",
+            "certificate_hash": "d3ad225ac91beb7e367660d3895e59286d566989"
+          }
+        },
+        {
+          "client_id": "112936670092-p18kghudgnh4c9f6jmlfnjh10cn4gt67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZb4KlozIWiSQqXyXKLYgphgXg0JR68_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112936670092-p18kghudgnh4c9f6jmlfnjh10cn4gt67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

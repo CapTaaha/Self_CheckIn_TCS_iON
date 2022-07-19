@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Hotel">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:text="HOTEL GALLERY"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="412dp"
+        android:layout_height="297dp"
+        android:layout_marginBottom="300dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/open"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="410dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/outside"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="1280dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="408dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/reception"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="250dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="811dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/dinnig"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="350dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="1213dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/swimming"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="675dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="1615dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/room_1"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="1195dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="2018dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/room_2"
+                tools:ignore="ImageContrastCheck"
+                tools:layout_conversion_absoluteHeight="1280dp"
+                tools:layout_conversion_absoluteWidth="400dp"
+                tools:layout_editor_absoluteX="2420dp"
+                tools:layout_editor_absoluteY="1dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="446dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT US"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/the_hotel_fonda_vela_is_located_in_beautiful_monteverde_famous_for_its_rare_and_gorgeous_cloud_forest_and_friendly_community_the_views_of_the_gulf_of_nicoya_from_the_hotel_s_4_200_foot_elevation_are_spectacular_experience_hotel_fonda_vela_s_natural_approach_to_life_with_style_surrounded_by_beautiful_tropical_gardens_our_buildings_are_an_attractive_part_of_the_lush_tropical_mountainside_the_rooms_are_cozy_yet_elegant_spacious_and_comfortable_each_room_is_designed_with_the_environment_in_mind_for_example_large_windows_help_to_bring_the_outdoors_inside"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMMEDIATE VICINITY"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/supermarket_one_of_the_biggest_chains_of_supermarkets_in_turkey_migros_supermarket_is_located_in_vialand_shopping_mall_in_addition_to_basic_groceries_migros_supermarket_offers_a_large_spectrum_of_products_such_as_stationary_glassware_and_many_other_non_food_items_tobacco_shop_located_inside_vialand_shopping_mall_the_tobacco_shop_stocks_all_kinds_of_tobacco_goods_alcoholic_and_non_alcoholic_beverages_banks_and_atm_machines_there_are_two_banks_and_atm_machines_inside_vialand_shopping_mall_you_can_easily_perform_all_your_digital_and_mobile_banking_transactions_at_the_banks_the_atm_machines_provide_24_7_service_pharmacy_located_inside_vialand_shopping_mall_the_pharmacy_sells_cosmetics_and_skincare_products_in_addition_to_medical_and_healthcare_products_hair_dresser_located_in_vialand_shopping_mall_the_unisex_hairdresser_serves_both_men_and_women"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

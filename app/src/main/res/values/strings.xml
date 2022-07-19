@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Self Check-In</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_hotels">Hotels</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hotel_gallery">Hotel Gallery</string>
+    <string name="about_us">About Us</string>
+    <string name="the_hotel_fonda_vela_is_located_in_beautiful_monteverde_famous_for_its_rare_and_gorgeous_cloud_forest_and_friendly_community_the_views_of_the_gulf_of_nicoya_from_the_hotel_s_4_200_foot_elevation_are_spectacular_experience_hotel_fonda_vela_s_natural_approach_to_life_with_style_surrounded_by_beautiful_tropical_gardens_our_buildings_are_an_attractive_part_of_the_lush_tropical_mountainside_the_rooms_are_cozy_yet_elegant_spacious_and_comfortable_each_room_is_designed_with_the_environment_in_mind_for_example_large_windows_help_to_bring_the_outdoors_inside">The Hotel Fonda Vela is located in beautiful Monteverde, famous for its rare and gorgeous cloud forest and friendly community. The views of the Gulf of Nicoya from the hotel\'s 4,200 foot elevation are spectacular. Experience Hotel Fonda Vela\'s natural approach to life with style! Surrounded by beautiful tropical gardens, our buildings are an attractive part of the lush, tropical mountainside. The rooms are cozy, yet elegant, spacious and comfortable. Each room is designed with the environment in mind. For example, large windows help to bring the outdoors inside.</string>
+    <string name="facilities">Facilities</string>
+    <string name="immediate_vicinity">Immediate Vicinity</string>
+    <string name="supermarket_one_of_the_biggest_chains_of_supermarkets_in_turkey_migros_supermarket_is_located_in_vialand_shopping_mall_in_addition_to_basic_groceries_migros_supermarket_offers_a_large_spectrum_of_products_such_as_stationary_glassware_and_many_other_non_food_items_tobacco_shop_located_inside_vialand_shopping_mall_the_tobacco_shop_stocks_all_kinds_of_tobacco_goods_alcoholic_and_non_alcoholic_beverages_banks_and_atm_machines_there_are_two_banks_and_atm_machines_inside_vialand_shopping_mall_you_can_easily_perform_all_your_digital_and_mobile_banking_transactions_at_the_banks_the_atm_machines_provide_24_7_service_pharmacy_located_inside_vialand_shopping_mall_the_pharmacy_sells_cosmetics_and_skincare_products_in_addition_to_medical_and_healthcare_products_hair_dresser_located_in_vialand_shopping_mall_the_unisex_hairdresser_serves_both_men_and_women">Supermarket One of the biggest chains of supermarkets in Turkey, Migros Supermarket is located in Vialand Shopping Mall. In addition to basic groceries, Migros Supermarket offers a large spectrum of products such as stationary, glassware and many other non-food items. Tobacco Shop Located inside Vialand Shopping Mall, the Tobacco Shop stocks all kinds of tobacco goods, alcoholic and non-alcoholic beverages. Banks and ATM Machines There are two banks and ATM machines inside Vialand Shopping Mall. You can easily perform all your digital and mobile banking transactions at the banks. The ATM machines provide 24/7 service. Pharmacy Located inside Vialand Shopping Mall, the pharmacy sells cosmetics and skincare products in addition to medical and healthcare products. Hair Dresser Located in Vialand Shopping Mall, the unisex hairdresser serves both men and women.</string>
+    <string name="name" />
+    <string name="fill_the_application">Fill The Application</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone" />
+    <string name="gender">Gender</string>
+    <string name="m">M</string>
+    <string name="f">F</string>
+    <string name="other">Other</string>
+    <string name="current_address">Current Address</string>
+    <string name="book">Book</string>
+    <string name="enter_verification_code">enter verification code</string>
+    <string name="select_a_room">Select a Room</string>
+    <string name="diamond">Diamond</string>
+    <string name="luxury">Luxury</string>
+    <string name="standard">Standard</string>
+    <string name="diamond_rooms">Diamond Rooms</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="enter_the_otp">Enter The OTP</string>
+    <string name="enter">Enter</string>
+    <string name="diamond_room" />
+    <string name="text">text</string>
+    <string name="adult">Adult</string>
+    <string name="children">Children</string>
+    <string name="select">Select</string>
+    <string name="select_duration">Select Duration</string>
+    <string name="_91">+91-</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the otp?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="return_to_home">Return to Home</string>
+    <string name="congratulations_you_have_successfully_booked_your_room">Congratulations! You have Successfully Booked your Room</string>
+    <string name="standard_rooms">Standard Rooms</string>
+    <string name="otp_sent_to_the_number_provided">OTP sent to the number provided</string>
+    <string name="show_booking">SHOW BOOKING</string>
+    <string name="booking_details_1">Booking Details</string>
+    <string name="name_booked">Name:</string>
+    <string name="taaha">Taaha</string>
+    <string name="room_type">Room Type</string>
+    <string name="_booked">Room Type:</string>
+    <string-array name="rooms">
+        <item>Choose a Room</item>
+        <item>Diamond</item>
+        <item>Luxury</item>
+        <item>Standard</item>
+    </string-array>
+</resources>
